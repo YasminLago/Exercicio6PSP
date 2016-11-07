@@ -10,7 +10,7 @@ public class Caja {
     boolean dinero = true; 
      
     /**
-     * Recoge la cantidad ingreada y se la suma al capital inicial 
+     * Recoge la cantidad ingresada y se la suma al capital inicial 
      * @param cliente Ingresos en Caja
      */
     public synchronized void cobrar(int cliente) {
